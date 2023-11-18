@@ -2,7 +2,7 @@ macro_altctrl: macro_altctrl{
 compatible = "zmk,behavior-macro";
 label = "macro_altctrl";
 #binding-cells = <0>;
-bindings = <&kp LEFT_ALT>, <&kp RCTRL>;
+bindings = <&kp LEFT_ALT>, <&kp LCTRL>;
 };
 macro_macro_altctrl: macro_macro_altctrl{
 compatible = "zmk,behavior-macro";
